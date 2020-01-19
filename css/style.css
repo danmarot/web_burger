@@ -432,12 +432,13 @@ main section .underline{
 
 .flex-menu article h3{
     color: white;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .flex-menu article span{
     color: #fa573a;
     font-size: 12px;
+    margin-bottom: 2px;
 }
 
 .offers{
@@ -466,7 +467,6 @@ main section .flex-menu{
 main section .flex-menu article {
     width: 100%;
     border-bottom: 0px;
-    padding: 1.825em 1em;
     margin-bottom: 1em;
 }
 
@@ -476,7 +476,7 @@ main section .underline{
 }
 
 .container .flex-menu .container-img{
-    width: 90%;
+    width: 98%;
 }
 
 .container-fluid-menu .container .flex-menu .container-img p{
@@ -499,6 +499,23 @@ main section .show-menu .enlace i {
     font-size: 1em;
     border: 0px;
     padding: .8em;
+}
+
+.text-info{
+    margin-left: 6px;
+}
+
+.text-info p.text-content{
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.text-info h3 {
+    margin: 0px 0px;
+}
+
+.img-menu{
+    margin-bottom: 10px;
 }
 
 
@@ -689,7 +706,7 @@ main section .show-menu .enlace i {
         font-weight: 700;
         display: block;
         text-decoration: none;
-        margin-top: 1em;
+        margin-top: 0em;
     }
 
     main section .show-menu .enlace i {
@@ -699,10 +716,9 @@ main section .show-menu .enlace i {
         padding: .8em;
     }
 
-    
-
+   
     .img-menu img{
-        width: 100px;
+        width: 124px;
     }
 
     .container-fluid-menu ul.show-menu{
